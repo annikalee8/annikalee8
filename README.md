@@ -19,3 +19,7 @@ A static portfolio website designed for GitHub Pages.
 
 - Email: annikalee.work@gmail.com
 - LinkedIn: https://www.linkedin.com/in/annikalee8/
+
+## Latest update
+
+- Added Annika's portrait to the homepage hero and refined image/text alignment.

@@ -232,3 +232,33 @@ button { font: inherit; }
   .gaming-analysis { grid-template-columns: 1fr; }
   .project-pagination { align-items: flex-start; gap: 20px; }
 }
+
+/* V4: homepage portrait alignment */
+.hero-grid { align-items: center; }
+.hero-intro { padding-bottom: 0; }
+.hero-collage.hero-portrait {
+  min-height: 0;
+  aspect-ratio: 4 / 5;
+  max-height: 720px;
+  justify-self: stretch;
+}
+.hero-collage.hero-portrait .hero-image-main img {
+  object-position: center 34%;
+}
+
+@media (max-width: 1050px) {
+  .hero-collage.hero-portrait { min-height: 0; max-height: 680px; }
+}
+
+@media (max-width: 760px) {
+  .hero-collage.hero-portrait {
+    min-height: 0;
+    max-height: none;
+    aspect-ratio: 4 / 5;
+  }
+  .hero-collage.hero-portrait .hero-image-main img { object-position: center 32%; }
+}
+
+@media (max-width: 480px) {
+  .hero-collage.hero-portrait { min-height: 0; }
+}
