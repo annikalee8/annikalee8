@@ -1,173 +1,252 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Annika Lee — marketing, brand, project coordination, and experience-focused portfolio." />
-  <title>Annika Lee — Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Annika Lee - marketing, brand, project and experience portfolio.">
+  <meta name="theme-color" content="#f3eee4">
+  <title>Annika Lee - Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="logo" href="#top">AL</a>
-    <nav>
-      <a href="#work">Work</a>
-      <a href="#experience">Experience</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <div class="site-shell">
+    <header class="site-header" id="top">
+      <a class="wordmark" href="#top" aria-label="Annika Lee home">ANNIKA LEE</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="#contact">Available for opportunities <span aria-hidden="true">&rarr;</span></a>
+    </header>
 
-  <main id="top">
-    <section class="hero section-shell">
-      <p class="eyebrow">MARKETING · BRAND · EXPERIENCES · PROJECTS</p>
-      <h1>Hi, I’m Annika.<br>I turn ideas into work people can <em>see, feel, and remember.</em></h1>
-      <p class="hero-copy">
-        Bachelor of Commerce graduate with experience across marketing, project coordination,
-        events, executive support, and international business environments.
-      </p>
-      <div class="hero-actions">
-        <a class="button primary" href="#work">See my work</a>
-        <a class="button secondary" href="#contact">Get in touch</a>
-      </div>
-      <div class="hero-meta">
-        <span>Vancouver, Canada</span>
-        <span>Open to opportunities internationally</span>
-      </div>
-    </section>
+    <main>
+      <section class="hero section-pad">
+        <div class="hero-kicker reveal">
+          <span>Marketing / Brand / Projects</span>
+          <span>Vancouver, Canada</span>
+        </div>
 
-    <section id="work" class="section-shell section-block">
-      <div class="section-heading">
-        <p class="eyebrow">SELECTED WORK</p>
-        <h2>Projects with a story behind them.</h2>
-      </div>
+        <div class="hero-title-wrap reveal">
+          <h1>PORTFOLIO</h1>
+        </div>
 
-      <div class="project-grid">
-        <article class="project-card featured">
-          <div class="project-number">01</div>
-          <div class="project-content">
-            <p class="project-tag">Strategy · Research · Project Design</p>
-            <h3>Azilis Advisory / Your Fair Share</h3>
-            <p>
-              Helped simplify a complex ESG compliance process spanning more than 1,000 questions,
-              supporting a clearer and more usable experience for clients and internal stakeholders.
-            </p>
-            <a href="#" class="text-link" aria-label="Case study coming soon">Case study coming soon →</a>
+        <div class="hero-grid">
+          <div class="hero-intro reveal">
+            <p class="eyebrow">Hello, I'm</p>
+            <h2>Annika<br>Lee</h2>
+            <p class="accent-copy">Marketing &amp; brand professional</p>
+            <p>I bring together strategy, communication and execution to turn complex ideas into clear, useful and memorable work.</p>
+            <a class="text-link" href="#work">View selected work <span aria-hidden="true">&darr;</span></a>
           </div>
-        </article>
 
-        <article class="project-card">
-          <div class="project-number">02</div>
-          <div class="project-content">
-            <p class="project-tag">Social Media · Content · Growth</p>
-            <h3>Independent Social Media Marketing</h3>
-            <p>
-              Developed social content and audience growth strategies that increased brand reach and
-              engagement, including 11%+ audience growth.
-            </p>
-            <a href="#" class="text-link" aria-label="Case study coming soon">Case study coming soon →</a>
+          <div class="hero-collage reveal" aria-label="Editorial portfolio imagery">
+            <figure class="hero-image hero-image-main">
+              <img src="assets/editorial-desk.png" alt="Minimal editorial desk with burgundy accents" fetchpriority="high">
+            </figure>
+            <figure class="hero-image hero-image-small-a">
+              <img src="assets/editorial-architecture.png" alt="Warm architectural shadows on an ivory wall">
+            </figure>
+            <figure class="hero-image hero-image-small-b">
+              <img src="assets/editorial-notebook.png" alt="Minimal notebook and stationery in natural light">
+            </figure>
+            <span class="image-note">Curious by nature. Structured by habit.</span>
           </div>
-        </article>
 
-        <article class="project-card">
-          <div class="project-number">03</div>
-          <div class="project-content">
-            <p class="project-tag">Events · Operations · Guest Experience</p>
-            <h3>Independent Event Coordination</h3>
-            <p>
-              Coordinated event logistics, vendors, schedules, and on-site execution with a strong focus
-              on detail, guest experience, and smooth delivery.
-            </p>
-            <a href="#" class="text-link" aria-label="Case study coming soon">Case study coming soon →</a>
+          <aside class="hero-side reveal">
+            <span class="vertical-label">CANADA / EUROPE / INTERNATIONAL</span>
+            <p>Interested in brands, consumer experiences, gaming, events and ideas that make people care.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="work section-pad" id="work">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2>Projects with<br><em>a point of view.</em></h2>
           </div>
-        </article>
+          <p>A mix of professional and academic work spanning sustainability, digital marketing, events and consumer strategy.</p>
+        </div>
 
-        <article class="project-card">
-          <div class="project-number">04</div>
-          <div class="project-content">
-            <p class="project-tag">Consumer Strategy · Gaming · University</p>
-            <h3>Gaming Industry Case Studies</h3>
-            <p>
-              Academic strategy work exploring major gaming businesses including Activision and EA,
-              combining industry research, brand thinking, and consumer analysis.
-            </p>
-            <a href="#" class="text-link" aria-label="Case study coming soon">Case study coming soon →</a>
+        <div class="project-layout">
+          <a class="project-card project-card-featured reveal" href="azilis.html">
+            <div class="project-image">
+              <img src="assets/editorial-sketches.png" alt="Editorial sketches used as NDA-safe portfolio imagery" loading="lazy">
+              <span class="project-badge">NDA protected</span>
+            </div>
+            <div class="project-info">
+              <span class="project-index">01</span>
+              <div>
+                <h3>Azilis Advisory</h3>
+                <p>Sustainability / Product thinking / Project development</p>
+              </div>
+              <span class="project-arrow" aria-hidden="true">&nearr;</span>
+            </div>
+          </a>
+
+          <a class="project-card reveal" href="social-media.html">
+            <div class="project-image portrait">
+              <img src="assets/editorial-phone.webp" alt="Editorial mobile content planning scene" loading="lazy">
+            </div>
+            <div class="project-info">
+              <span class="project-index">02</span>
+              <div>
+                <h3>Social Media Marketing</h3>
+                <p>Content strategy / Brand voice / Audience growth</p>
+              </div>
+              <span class="project-arrow" aria-hidden="true">&nearr;</span>
+            </div>
+          </a>
+
+          <a class="project-card reveal" href="events.html">
+            <div class="project-image landscape">
+              <img src="assets/editorial-stationery.webp" alt="Editorial event stationery and table details" loading="lazy">
+            </div>
+            <div class="project-info">
+              <span class="project-index">03</span>
+              <div>
+                <h3>Event Coordination</h3>
+                <p>Planning / Operations / Guest experience</p>
+              </div>
+              <span class="project-arrow" aria-hidden="true">&nearr;</span>
+            </div>
+          </a>
+
+          <a class="project-card project-card-dark reveal" href="gaming.html">
+            <div class="project-image gaming-visual" aria-hidden="true">
+              <div class="game-grid"></div>
+              <span class="game-word">PLAY</span>
+              <span class="game-sub">MARKET / PLAYER / BRAND</span>
+            </div>
+            <div class="project-info">
+              <span class="project-index">04</span>
+              <div>
+                <h3>Gaming Case Studies</h3>
+                <p>Activision &amp; EA / Consumer insights / Strategy</p>
+              </div>
+              <span class="project-arrow" aria-hidden="true">&nearr;</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="visual-break reveal" aria-label="Editorial portfolio image strip">
+        <figure><img src="assets/editorial-pastry.png" alt="Editorial pastry styled with burgundy ribbon" loading="lazy"></figure>
+        <figure><img src="assets/editorial-architecture.png" alt="Architectural light and shadow" loading="lazy"></figure>
+        <div class="visual-break-copy">
+          <span class="eyebrow">Detail matters</span>
+          <p>From a campaign brief to an event run-of-show, I care about the small decisions that make the final experience feel intentional.</p>
+        </div>
+      </section>
+
+      <section class="about section-pad" id="about">
+        <div class="about-grid">
+          <div class="about-title reveal">
+            <p class="eyebrow">About me</p>
+            <h2>Curious.<br><em>Organized.</em><br>Always learning.</h2>
           </div>
-        </article>
-      </div>
-    </section>
 
-    <section id="experience" class="section-shell section-block">
-      <div class="section-heading">
-        <p class="eyebrow">EXPERIENCE</p>
-        <h2>A mix of creative, operational, and people-facing work.</h2>
-      </div>
+          <div class="about-copy reveal">
+            <p class="large-copy">I am a Bachelor of Commerce graduate with a marketing background and experience across project development, digital marketing, events and stakeholder communication.</p>
+            <p>Studying and working internationally strengthened my interest in brands and organizations that operate across cultures. I like environments where I can take ownership, ask good questions and move an idea from messy beginnings to a polished outcome.</p>
+            <div class="interest-row">
+              <span>Gaming</span><span>Travel</span><span>Live entertainment</span><span>Consumer brands</span><span>Events</span><span>International work</span>
+            </div>
+          </div>
 
-      <div class="timeline">
-        <div class="timeline-item">
-          <div><strong>Project Design & Marketing Development Intern</strong><span>Azilis Advisory / Your Fair Share</span></div>
-          <div class="timeline-meta">Copenhagen · 2025</div>
+          <div class="about-images reveal">
+            <figure class="about-image-tall"><img src="assets/editorial-desk.png" alt="Editorial desk scene" loading="lazy"></figure>
+            <figure class="about-image-small"><img src="assets/editorial-pastry-box.webp" alt="Editorial pastry box with burgundy ribbon" loading="lazy"></figure>
+          </div>
         </div>
-        <div class="timeline-item">
-          <div><strong>Personal Assistant</strong><span>Private Healthcare Executive</span></div>
-          <div class="timeline-meta">Remote Canada · 2021–Present</div>
-        </div>
-        <div class="timeline-item">
-          <div><strong>Medical Imaging Aide</strong><span>Fraser Health Authority</span></div>
-          <div class="timeline-meta">British Columbia · 2022–Present</div>
-        </div>
-        <div class="timeline-item">
-          <div><strong>Social Media Marketing Coordinator</strong><span>Independent</span></div>
-          <div class="timeline-meta">Remote Canada · 2023–2024</div>
-        </div>
-        <div class="timeline-item">
-          <div><strong>Independent Event Coordinator</strong><span>Self-Employed</span></div>
-          <div class="timeline-meta">Vancouver · 2020–Present</div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="about" class="section-shell section-block about-grid">
-      <div>
-        <p class="eyebrow">ABOUT</p>
-        <h2>Curious, organized, and drawn to work that brings people together.</h2>
-      </div>
-      <div class="about-copy">
-        <p>
-          I’m a recent Bachelor of Commerce graduate with a marketing background and international
-          experience in Denmark and Germany. I’m especially interested in brands, live experiences,
-          gaming, consumer behavior, travel, and projects that sit between creativity and execution.
-        </p>
-        <p>
-          I work best in environments where I can take ownership, collaborate across teams, and turn
-          a messy idea into something polished and useful.
-        </p>
-        <div class="pill-row">
-          <span>Marketing</span><span>Brand</span><span>Events</span><span>Project Coordination</span><span>Gaming</span><span>International</span>
+      <section class="experience section-pad" id="experience">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Experience</p>
+            <h2>A background built<br><em>across different worlds.</em></h2>
+          </div>
+          <p>Creative, operational and people-facing roles across Canada and Europe.</p>
         </div>
-      </div>
-    </section>
 
-    <section id="contact" class="contact section-shell section-block">
-      <p class="eyebrow">CONTACT</p>
-      <h2>Have an interesting project or opportunity?</h2>
-      <p>Let’s talk.</p>
-      <div class="contact-links">
-        <a href="mailto:annikalee.work@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/in/annikalee8/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="resume.pdf" target="_blank" rel="noopener noreferrer">Résumé</a>
-      </div>
-    </section>
-  </main>
+        <div class="experience-table reveal">
+          <div class="experience-row">
+            <span>2025</span>
+            <strong>Project Design &amp; Marketing Development Intern</strong>
+            <span>Azilis Advisory / Copenhagen, Denmark</span>
+          </div>
+          <div class="experience-row">
+            <span>2023-2024</span>
+            <strong>Social Media Marketing Coordinator</strong>
+            <span>Independent / Remote Canada</span>
+          </div>
+          <div class="experience-row">
+            <span>2020-Present</span>
+            <strong>Independent Event Coordinator</strong>
+            <span>Vancouver, Canada</span>
+          </div>
+          <div class="experience-row">
+            <span>2021-Present</span>
+            <strong>Personal Assistant</strong>
+            <span>Private Healthcare Executive / Remote Canada</span>
+          </div>
+          <div class="experience-row">
+            <span>2022-Present</span>
+            <strong>Medical Imaging Aide</strong>
+            <span>British Columbia, Canada</span>
+          </div>
+          <div class="experience-row">
+            <span>2017-2021</span>
+            <strong>Founder &amp; Baker</strong>
+            <span>Custom Cake &amp; Cookie Business / Vancouver</span>
+          </div>
+        </div>
 
-  <footer class="site-footer section-shell">
-    <span>© <span id="year"></span> Annika Lee</span>
-    <span>Designed & built with care.</span>
-  </footer>
+        <div class="experience-gallery reveal">
+          <figure><img src="assets/langley-memorial-hospital.jpg" alt="Hospital corridor" loading="lazy"><figcaption>Healthcare experience</figcaption></figure>
+          <figure><img src="assets/editorial-lab.png" alt="Editorial laboratory equipment" loading="lazy"><figcaption>Detail-driven environments</figcaption></figure>
+          <figure><img src="assets/editorial-pastry-box.webp" alt="Editorial pastry box" loading="lazy"><figcaption>Entrepreneurial beginnings</figcaption></figure>
+        </div>
+      </section>
 
+      <section class="skills-band reveal">
+        <div class="skills-title">
+          <p class="eyebrow">What I bring</p>
+          <h2>Strategy <span>/</span> Execution <span>/</span> People</h2>
+        </div>
+        <div class="skills-columns">
+          <div><span>01</span><h3>Marketing</h3><p>Campaign execution, social strategy, brand thinking, digital marketing and market research.</p></div>
+          <div><span>02</span><h3>Projects</h3><p>Project coordination, timelines, stakeholder communication, research and presentation development.</p></div>
+          <div><span>03</span><h3>Experiences</h3><p>Event planning, operations, client communication and attention to the details people actually notice.</p></div>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contact">
+        <div class="contact-main reveal">
+          <p class="eyebrow">Get in touch</p>
+          <h2>LET'S MAKE<br><em>SOMETHING GREAT.</em></h2>
+        </div>
+        <div class="contact-side reveal">
+          <p>Interested in working together, talking about a role, or swapping thoughts on brands, gaming or travel? I would love to connect.</p>
+          <a href="mailto:annikalee.work@gmail.com">Email <span aria-hidden="true">&rarr;</span></a>
+          <a href="https://www.linkedin.com/in/annikalee8/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">&rarr;</span></a>
+          <a href="resume.pdf" target="_blank" rel="noopener">Resume <span aria-hidden="true">&rarr;</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; <span id="year"></span> Annika Lee</span>
+      <a href="#top">Back to top &uarr;</a>
+    </footer>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
