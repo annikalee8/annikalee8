@@ -1,6 +1,6 @@
 # Annika Lee Portfolio
 
-A static portfolio website designed for GitHub Pages.
+A personal portfolio website designed for GitHub Pages.
 
 ## Main files
 
