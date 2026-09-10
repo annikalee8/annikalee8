@@ -1,4 +1,4 @@
-# Annika Lee Portfolio — V14 Self-Contained Upload
+# Annika Lee Portfolio — V15 Self-Contained Upload
 
 This build is intentionally self-contained for GitHub Pages.
 
@@ -26,4 +26,12 @@ You can upload `README.md` too, but it is not required for the website.
 
 ## Important
 
-Replace the existing website files with these V14 files. Do not upload the ZIP itself into the repository. Unzip it first, then upload the files inside.
+Replace the existing website files with these V15 files. Do not upload the ZIP itself into the repository. Unzip it first, then upload the files inside.
+
+
+## V15 image refresh
+- Replaced Tuff Collection hero imagery with uploaded campaign creative.
+- Rebuilt Social Media Marketing visuals with uploaded Instagram, Pinterest and Bluesky examples.
+- Replaced SHED it report crops with cleaner slides from the original COMM 482 presentation.
+- Upgraded homepage and Work-page thumbnails for Tuff, Padel, Please!, SHED it, Body Energy Club and Social Media Marketing.
+- Images remain embedded directly in the HTML so GitHub Pages does not depend on an assets folder.
