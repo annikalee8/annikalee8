@@ -12,7 +12,7 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { margin: 0; background: var(--paper); color: var(--ink); font-family: "DM Sans", Arial, sans-serif; font-size: 15px; line-height: 1.6; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.6; }
 body.menu-open { overflow: hidden; }
 a { color: inherit; text-decoration: none; }
 img { display: block; width: 100%; height: 100%; object-fit: cover; }
@@ -325,4 +325,34 @@ button { font: inherit; }
 @media (max-width: 760px) {
   .project-card-wide { grid-column: auto; }
   .project-card-wide .project-image { aspect-ratio: 4 / 3; }
+}
+
+/* SHED it case study */
+.shed-body { --accent: #805e54; }
+.shed-hero .case-display em { color: var(--accent); }
+.shed-hero-grid { align-items: center; }
+.shed-brand-hero { overflow: hidden; background: #e9e4dc; border: 1px solid rgba(32,32,30,.08); aspect-ratio: 16 / 9; }
+.shed-brand-hero img { width: 100%; height: 100%; object-fit: cover; }
+.shed-visual { background: #eeeae3; }
+.shed-photo-frame img { object-fit: cover; background: #ddd8cf; }
+.shed-stats strong { color: var(--accent); }
+.shed-process article > span { color: var(--accent); }
+.shed-evidence-grid { max-width: 1050px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.shed-evidence-grid .deck-frame img { aspect-ratio: 4 / 3; object-fit: cover; }
+.opportunity-list { margin-top: 36px; max-width: 920px; border-top: 1px solid var(--line); }
+.opportunity-list > div { position: relative; display: grid; grid-template-columns: 1fr auto; gap: 24px; padding: 17px 0 21px; border-bottom: 1px solid var(--line); overflow: hidden; }
+.opportunity-list span { font-size: 13px; font-weight: 600; position: relative; z-index: 2; }
+.opportunity-list b { font-size: 13px; color: var(--accent); position: relative; z-index: 2; }
+.opportunity-list i { position: absolute; left: 0; bottom: 0; height: 3px; width: var(--score); background: var(--accent); opacity: .7; }
+.shed-feature-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 38px; max-width: 980px; }
+.shed-feature-grid article { min-height: 190px; padding: 22px 24px; border: 1px solid var(--line); background: rgba(255,253,248,.34); }
+.shed-feature-grid article > span { color: var(--accent); font-size: 11px; font-weight: 700; }
+.shed-feature-grid h3 { margin: 22px 0 8px; font-size: 17px; font-weight: 650; }
+.shed-feature-grid p { margin: 0; color: var(--muted); font-size: 13px; }
+
+@media (max-width: 760px) {
+  .shed-brand-hero { margin-top: 8px; }
+  .shed-evidence-grid { grid-template-columns: 1fr; }
+  .shed-feature-grid { grid-template-columns: 1fr; }
+  .shed-feature-grid article { min-height: 0; }
 }
