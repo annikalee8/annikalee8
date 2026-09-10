@@ -1,32 +1,15 @@
-# Annika Lee Portfolio — V12
+# Annika Lee Portfolio - V13
 
 Static portfolio website for GitHub Pages.
 
-## Main files
+## Main pages
+- `index.html` - focused homepage with four featured cases
+- `work.html` - full work archive
+- case-study HTML files - individual project pages
+- `styles.css` - responsive visual system + sticky navigation
+- `script.js` - mobile menu and scroll reveals
+- `assets/` - ALL site and case-study images
+- `resume.pdf` - downloadable resume
 
-- `index.html` — homepage
-- `azilis.html` — NDA-safe Azilis case study
-- `social-media.html` — social media case study
-- `events.html` — event coordination and creative collateral
-- `padel.html` — Padel It! Vancouver case study
-- `tuff.html` — Tuff Collection digital marketing case study
-- `shed.html` — SHED it consumer research / product development case study
-- `bec.html` — Body Energy Club market research case study
-- `luma.html` - Germany digital-health market opportunity case study
-- `please.html` — Please! Beverage Co. integrated digital marketing case study
-- `styles.css` — all styles and responsive layouts
-- `script.js` — mobile navigation and scroll reveals
-- `404.html` — GitHub Pages 404 page
-- `resume.pdf` — resume
-- `assets/` — all site and case-study images
-
-## V12 update
-
-- Added the full Please! Beverage Co. integrated digital marketing case study using original project-deck visuals
-- Added SEO, CRO, paid search, social, influencer, email, retargeting and break-even strategy work to the homepage
-- Connected project navigation from LUMA Health to Please! Beverage Co.
-- Preserved the larger editorial typography and visual system
-- Full responsive styling for desktop, tablet, and mobile
-
-Contact: annikalee.work@gmail.com  
-LinkedIn: https://www.linkedin.com/in/annikalee8/
+## Important
+Upload the entire folder contents to GitHub, including the complete `assets/` folder. The HTML uses relative paths such as `assets/padel/cover.jpg`, so the folder structure must stay intact.
