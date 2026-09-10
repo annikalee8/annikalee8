@@ -1,4 +1,4 @@
-# Annika Lee Portfolio — V10
+# Annika Lee Portfolio — V11
 
 Static portfolio website for GitHub Pages.
 
@@ -12,21 +12,19 @@ Static portfolio website for GitHub Pages.
 - `tuff.html` — Tuff Collection digital marketing case study
 - `shed.html` — SHED it consumer research / product development case study
 - `bec.html` — Body Energy Club market research case study
+- `luma.html` — Germany digital health / market opportunity case study
 - `styles.css` — all styles and responsive layouts
 - `script.js` — mobile navigation and scroll reveals
 - `404.html` — GitHub Pages 404 page
 - `resume.pdf` — resume
 - `assets/` — all site and case-study images
 
-## V10 visual refresh
+## V11 update
 
-- Larger body, navigation, project-card, and case-study typography
-- Readable editorial serif used only for large display headings
-- Stronger ivory / charcoal / muted burgundy visual system
-- Larger, more prominent case-study deck visuals
-- New homepage visual reel using Padel, Tuff, SHED it, and Body Energy Club work
-- More varied project-grid rhythm and stronger image treatment
-- Dark contrast section for skills without adding another major brand colour
+- Added the full LUMA Health Germany case study using original project-deck visuals
+- Added international strategy / digital health work to the homepage
+- Connected project navigation from Body Energy Club to LUMA Health
+- Preserved the larger V10 typography and editorial visual system
 - Full responsive styling for desktop, tablet, and mobile
 
 Contact: annikalee.work@gmail.com  

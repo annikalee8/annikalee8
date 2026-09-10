@@ -743,7 +743,7 @@ body {
 .skills-band .skills-columns > div + div { border-left: 1px solid rgba(255,255,255,.12); padding-left: 30px; }
 
 .home-body .work .section-heading::before {
-  content: "07 SELECTED STORIES";
+  content: "08 SELECTED STORIES";
   display: block;
   position: absolute;
   right: 0;
@@ -758,4 +758,41 @@ body {
 @media (max-width: 760px) {
   .skills-band .skills-columns > div + div { border-left: 0; padding-left: 0; }
   .home-body .work .section-heading::before { display: none; }
+}
+
+/* LUMA Health: Germany market opportunity / digital health */
+.luma-body { --accent: #2f6ea7; --luma-teal: #5aaea9; --luma-orange: #d88951; }
+.luma-hero .case-display em { color: var(--accent); }
+.luma-hero-grid { align-items: center; }
+.luma-brand-hero { min-height: 440px; display: grid; place-items: center; overflow: hidden; background: #fff; border: 1px solid rgba(32,32,30,.08); box-shadow: 0 20px 55px rgba(34,67,94,.08); }
+.luma-brand-hero img { width: 100%; height: auto; object-fit: contain; }
+.luma-body .case-visual-section { background: #e9f0f3; }
+.luma-slide-frame img { background: #fff; object-fit: contain; }
+.luma-stats { grid-template-columns: repeat(4, 1fr); }
+.luma-stats strong { color: var(--accent); }
+.luma-stats > div:nth-child(2) strong { color: var(--luma-teal); }
+.luma-stats > div:nth-child(3) strong { color: var(--luma-orange); }
+.luma-process article > span { color: var(--accent); }
+.luma-deck-grid { max-width: 1240px; }
+.luma-three-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 1380px; }
+.deck-inline-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 42px; max-width: 1050px; }
+.luma-inline-frame { margin-top: 44px; max-width: 1000px; }
+.luma-concept-section { position: relative; }
+.luma-concept-section::after { content: "LIVE / UPLIFTED / MONITORING / AI"; position: absolute; right: 0; bottom: 28px; color: rgba(47,110,167,.15); font-size: clamp(22px, 3.5vw, 54px); font-family: var(--serif); letter-spacing: -.02em; pointer-events: none; }
+.luma-pricing-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 46px; max-width: 1100px; }
+.luma-pricing-grid article { min-height: 190px; padding: 24px; border: 1px solid rgba(47,110,167,.18); background: rgba(255,255,255,.42); display: flex; flex-direction: column; }
+.luma-pricing-grid span { color: var(--accent); font-size: 11px; font-weight: 750; text-transform: uppercase; letter-spacing: .1em; }
+.luma-pricing-grid strong { margin-top: auto; padding-top: 30px; font-family: var(--serif); font-weight: 400; font-size: clamp(31px, 3vw, 46px); line-height: 1; }
+.luma-pricing-grid p { margin: 9px 0 0; color: var(--muted); font-size: 13px; }
+
+@media (max-width: 1050px) {
+  .luma-stats, .luma-pricing-grid { grid-template-columns: repeat(2, 1fr); }
+  .luma-three-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 760px) {
+  .luma-brand-hero { min-height: 0; height: auto; margin-top: 8px; }
+  .luma-stats, .luma-pricing-grid, .luma-three-grid, .deck-inline-grid { grid-template-columns: 1fr; }
+  .luma-concept-section::after { display: none; }
+  .luma-pricing-grid article { min-height: 150px; }
 }
