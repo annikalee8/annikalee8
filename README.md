@@ -12,11 +12,12 @@ A static portfolio website designed for GitHub Pages.
 - `padel.html` - Padel It! Vancouver case study
 - `tuff.html` - Tuff Collection digital marketing case study
 - `shed.html` - SHED it consumer research and product development case study
+- `bec.html` - Body Energy Club market research case study
 - `styles.css` - all styles and responsive layouts
 - `script.js` - mobile menu and subtle scroll reveals
 - `404.html` - custom GitHub Pages 404 page
 - `resume.pdf` - downloadable resume
-- `assets/` - site images, including selected Padel It! deck visuals
+- `assets/` - site images and selected project visuals
 
 ## Contact
 
@@ -25,10 +26,6 @@ A static portfolio website designed for GitHub Pages.
 
 ## Latest update
 
-- Added the SHED it consumer research and new product development case study.
-- Added selected observational research photography and data-led opportunity visuals.
-- Removed external font requests so local previews rely only on bundled assets and system fonts.
-
-## Preview note
-
-The site uses local assets and a system font stack, so previewing the pages does not require external font or image requests.
+- Added the Body Energy Club UBC market research case study.
+- Added selected original presentation visuals for methodology, findings, promotion testing and recommendations.
+- Updated project navigation and the homepage selected-work grid.

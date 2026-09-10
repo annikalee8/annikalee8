@@ -356,3 +356,42 @@ button { font: inherit; }
   .shed-feature-grid { grid-template-columns: 1fr; }
   .shed-feature-grid article { min-height: 0; }
 }
+
+/* Body Energy Club market research case study */
+.bec-body { --accent: #176ea6; }
+.bec-hero .case-display em { color: var(--accent); }
+.bec-hero-grid { align-items: center; }
+.bec-brand-hero { overflow: hidden; background: #f7f8f8; border: 1px solid rgba(32,32,30,.08); }
+.bec-brand-hero img { width: 100%; height: auto; object-fit: contain; }
+.bec-visual { background: #edf2f5; }
+.bec-slide-frame img { background: #fff; object-fit: contain; }
+.bec-stats { grid-template-columns: repeat(4, 1fr); }
+.bec-stats > div { min-height: 150px; }
+.bec-stats strong { color: var(--accent); }
+.bec-process article > span { color: var(--accent); }
+.bec-deck-grid { max-width: 1180px; }
+.bec-three-grid { grid-template-columns: repeat(3, 1fr); max-width: 1320px; }
+.bec-finding-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 36px; max-width: 950px; }
+.bec-finding-cards article { min-height: 180px; padding: 22px 24px; border: 1px solid var(--line); background: rgba(255,253,248,.42); }
+.bec-finding-cards span { color: var(--accent); text-transform: uppercase; font-size: 9px; font-weight: 700; letter-spacing: .1em; }
+.bec-finding-cards h3 { margin: 24px 0 8px; font-size: 18px; font-weight: 650; }
+.bec-finding-cards p { margin: 0; color: var(--muted); font-size: 13px; }
+.bec-finding-cards .muted-result span { color: var(--muted); }
+.bec-promo-list { margin-top: 36px; max-width: 920px; border-top: 1px solid var(--line); }
+.bec-promo-list > div { display: grid; grid-template-columns: 190px 1fr; gap: 20px; padding: 16px 0; border-bottom: 1px solid var(--line); align-items: baseline; }
+.bec-promo-list span { color: var(--accent); font-size: 13px; font-weight: 700; }
+.bec-promo-list p { margin: 0; color: var(--muted); }
+.bec-recommendation-grid article > span { color: var(--accent); }
+.bec-recommendation-deck { grid-template-columns: repeat(3, 1fr); max-width: 1320px; }
+.bec-limitations-frame { max-width: 900px; margin-top: 34px; }
+
+@media (max-width: 1050px) {
+  .bec-stats { grid-template-columns: repeat(2, 1fr); }
+  .bec-three-grid, .bec-recommendation-deck { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 760px) {
+  .bec-brand-hero { margin-top: 8px; }
+  .bec-stats, .bec-finding-cards, .bec-three-grid, .bec-recommendation-deck { grid-template-columns: 1fr; }
+  .bec-promo-list > div { grid-template-columns: 1fr; gap: 3px; }
+}
