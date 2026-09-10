@@ -1,33 +1,33 @@
-# Annika Lee Portfolio
+# Annika Lee Portfolio — V10
 
-A static portfolio website designed for GitHub Pages.
+Static portfolio website for GitHub Pages.
 
 ## Main files
 
-- `index.html` - homepage
-- `azilis.html` - NDA-safe Azilis case study
-- `social-media.html` - social media coordination case study
-- `events.html` - event coordination and guest-facing collateral case study
-- `padel.html` - Padel It! Vancouver case study
-- `tuff.html` - Tuff Collection digital marketing case study
-- `shed.html` - SHED it consumer research and product development case study
-- `bec.html` - Body Energy Club market research case study
-- `gaming.html` - legacy project URL that returns visitors to current work
-- `styles.css` - all styles and responsive layouts
-- `script.js` - mobile menu and subtle scroll reveals
-- `404.html` - custom GitHub Pages 404 page
-- `resume.pdf` - downloadable resume
-- `assets/` - site images and selected project visuals
+- `index.html` — homepage
+- `azilis.html` — NDA-safe Azilis case study
+- `social-media.html` — social media case study
+- `events.html` — event coordination and creative collateral
+- `padel.html` — Padel It! Vancouver case study
+- `tuff.html` — Tuff Collection digital marketing case study
+- `shed.html` — SHED it consumer research / product development case study
+- `bec.html` — Body Energy Club market research case study
+- `styles.css` — all styles and responsive layouts
+- `script.js` — mobile navigation and scroll reveals
+- `404.html` — GitHub Pages 404 page
+- `resume.pdf` — resume
+- `assets/` — all site and case-study images
 
-## Contact
+## V10 visual refresh
 
-- Email: annikalee.work@gmail.com
-- LinkedIn: https://www.linkedin.com/in/annikalee8/
+- Larger body, navigation, project-card, and case-study typography
+- Readable editorial serif used only for large display headings
+- Stronger ivory / charcoal / muted burgundy visual system
+- Larger, more prominent case-study deck visuals
+- New homepage visual reel using Padel, Tuff, SHED it, and Body Energy Club work
+- More varied project-grid rhythm and stronger image treatment
+- Dark contrast section for skills without adding another major brand colour
+- Full responsive styling for desktop, tablet, and mobile
 
-## Latest update
-
-- Reviewed internal links, image references and page structure across the full site.
-- Standardized project navigation.
-- Corrected the social-media result label to engagement growth and expanded the two-audience case-study framing.
-- Replaced placeholder event imagery with original guest-facing collateral while omitting private invitation details.
-- Updated the event project flow so the published project sequence is consistent.
+Contact: annikalee.work@gmail.com  
+LinkedIn: https://www.linkedin.com/in/annikalee8/
