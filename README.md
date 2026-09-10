@@ -9,11 +9,12 @@ A static portfolio website designed for GitHub Pages.
 - `social-media.html` - social media case study
 - `events.html` - event coordination case study
 - `gaming.html` - gaming case studies
+- `padel.html` - Padel It! Vancouver case study
 - `styles.css` - all styles and responsive layouts
 - `script.js` - mobile menu and subtle scroll reveals
 - `404.html` - custom GitHub Pages 404 page
 - `resume.pdf` - downloadable resume
-- `assets/` - site images
+- `assets/` - site images, including selected Padel It! deck visuals
 
 ## Contact
 
