@@ -743,7 +743,7 @@ body {
 .skills-band .skills-columns > div + div { border-left: 1px solid rgba(255,255,255,.12); padding-left: 30px; }
 
 .home-body .work .section-heading::before {
-  content: "08 SELECTED STORIES";
+  content: "09 SELECTED STORIES";
   display: block;
   position: absolute;
   right: 0;
@@ -795,4 +795,63 @@ body {
   .luma-stats, .luma-pricing-grid, .luma-three-grid, .deck-inline-grid { grid-template-columns: 1fr; }
   .luma-concept-section::after { display: none; }
   .luma-pricing-grid article { min-height: 150px; }
+}
+
+/* V12 — Please! Beverage Co. case study */
+.please-body { --accent: #d9683d; }
+.please-body .case-visual-section { background: #f1e8de; }
+.please-brand-hero { min-height: 0; height: auto; aspect-ratio: 16 / 9; background: #f7f2eb; }
+.please-brand-hero img { object-fit: contain; }
+.please-stat-grid strong { color: var(--accent); }
+.please-deck-grid { max-width: 1260px; }
+
+.please-system-band {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  background: #26231f;
+  color: #fffaf3;
+  padding: 100px max(24px, calc((100vw - min(calc(100vw - 48px), var(--max))) / 2));
+  border-bottom: 1px solid rgba(255,255,255,.12);
+}
+.please-system-inner { max-width: 1400px; margin: 0 auto; }
+.please-system-band .eyebrow { color: #f28a5c; font-size: 13px; }
+.please-system-band h2 {
+  max-width: 1020px;
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(46px, 5.5vw, 82px);
+  line-height: 1.04;
+  font-weight: 400;
+  letter-spacing: -.035em;
+}
+.please-system-intro { max-width: 820px; margin: 28px 0 0; color: rgba(255,250,243,.68); font-size: 18px; line-height: 1.7; }
+.please-channel-flow { display: grid; grid-template-columns: repeat(6, 1fr); margin-top: 58px; border-top: 1px solid rgba(255,255,255,.2); }
+.please-channel-flow article { min-height: 180px; padding: 24px 18px 20px 0; border-right: 1px solid rgba(255,255,255,.14); }
+.please-channel-flow article + article { padding-left: 18px; }
+.please-channel-flow article:last-child { border-right: 0; }
+.please-channel-flow span { display: block; color: #f28a5c; font-size: 12px; font-weight: 700; letter-spacing: .12em; }
+.please-channel-flow strong { display: block; margin-top: 34px; font-family: var(--serif); font-weight: 400; font-size: clamp(25px, 2.2vw, 35px); line-height: 1.05; }
+.please-channel-flow small { display: block; margin-top: 9px; color: rgba(255,250,243,.6); font-size: 13px; }
+
+.please-budget-callout { max-width: 760px; margin-top: 46px; padding: 34px 38px; background: #26231f; color: #fffaf3; }
+.please-budget-callout span { display: block; color: #f28a5c; text-transform: uppercase; font-size: 11px; font-weight: 700; letter-spacing: .12em; }
+.please-budget-callout strong { display: block; margin: 10px 0 7px; font-family: var(--serif); font-weight: 400; font-size: clamp(52px, 6vw, 82px); line-height: 1; }
+.please-budget-callout p { margin: 0; max-width: 620px; color: rgba(255,250,243,.68); font-size: 15px; }
+
+@media (max-width: 1050px) {
+  .please-channel-flow { grid-template-columns: repeat(3, 1fr); }
+  .please-channel-flow article:nth-child(3) { border-right: 0; }
+  .please-channel-flow article:nth-child(n+4) { border-top: 1px solid rgba(255,255,255,.14); }
+}
+
+@media (max-width: 760px) {
+  .please-system-band { padding-top: 72px; padding-bottom: 72px; }
+  .please-system-band h2 { font-size: clamp(42px, 12vw, 62px); }
+  .please-system-intro { font-size: 16px; }
+  .please-channel-flow { grid-template-columns: 1fr 1fr; margin-top: 42px; }
+  .please-channel-flow article { min-height: 145px; }
+  .please-channel-flow article:nth-child(odd) { border-right: 1px solid rgba(255,255,255,.14); }
+  .please-channel-flow article:nth-child(even) { border-right: 0; }
+  .please-channel-flow article:nth-child(n+3) { border-top: 1px solid rgba(255,255,255,.14); }
+  .please-budget-callout { padding: 28px; }
 }
