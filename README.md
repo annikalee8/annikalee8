@@ -35,3 +35,6 @@ Replace the existing website files with these V15 files. Do not upload the ZIP i
 - Replaced SHED it report crops with cleaner slides from the original COMM 482 presentation.
 - Upgraded homepage and Work-page thumbnails for Tuff, Padel, Please!, SHED it, Body Energy Club and Social Media Marketing.
 - Images remain embedded directly in the HTML so GitHub Pages does not depend on an assets folder.
+
+
+V17 updates: refreshed Padel thumbnail, standardized homepage project image sizes, and changed experience-date typography to the site sans-serif.
