@@ -37,4 +37,4 @@ Replace the existing website files with these V15 files. Do not upload the ZIP i
 - Images remain embedded directly in the HTML so GitHub Pages does not depend on an assets folder.
 
 
-V17 updates: refreshed Padel thumbnail, standardized homepage project image sizes, and changed experience-date typography to the site sans-serif.
+V18 updates: refreshed Padel thumbnail, standardized homepage project image sizes, and changed experience-date typography to the site sans-serif.
