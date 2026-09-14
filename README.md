@@ -1,3 +1,7 @@
+Annika Portfolio V25
+
+Homepage About section refinement: improved copy and structure, added a three-part working-style section, separated personal interests from imagery, and increased spacing before the About photo gallery.
+
 # Annika Lee Portfolio — V15 Self-Contained Upload
 
 This build is intentionally self-contained for GitHub Pages.
@@ -51,3 +55,6 @@ V23 polish: refined Body Energy Club, LUMA Health, and Please! Beverage Co. case
 
 
 V23: recruiter-focused homepage polish, quick proof strip, stronger experience descriptions, and work archive reordered by relevance.
+
+
+V25 update: standardized project snapshot panels across every case study, clarified role/scope/focus/output for 15-second scanning, added collaborative-work notes on team projects, and made the SHED it no-go decision explicit.
