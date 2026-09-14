@@ -44,7 +44,10 @@ Additional portfolio document:
 - `tuff-collection-case-report.pdf` — full 23-page individual Tuff Collection case report linked from `tuff.html`.
 
 
-V22 updates: stronger Social Media and Event Coordination case studies, a homepage Education & International section, and clearer recruiter-facing contact details.
+V23 updates: stronger Social Media and Event Coordination case studies, a homepage Education & International section, and clearer recruiter-facing contact details.
 
 
-V22 polish: refined Body Energy Club, LUMA Health, and Please! Beverage Co. case-study storytelling; standardized slide/diagram framing; and prevented SHED it and LUMA thumbnails from being cropped.
+V23 polish: refined Body Energy Club, LUMA Health, and Please! Beverage Co. case-study storytelling; standardized slide/diagram framing; and prevented SHED it and LUMA thumbnails from being cropped.
+
+
+V23: recruiter-focused homepage polish, quick proof strip, stronger experience descriptions, and work archive reordered by relevance.
