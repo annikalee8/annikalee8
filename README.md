@@ -38,3 +38,7 @@ Replace the existing website files with these V15 files. Do not upload the ZIP i
 
 
 V19 updates: refreshed Padel thumbnail, standardized homepage project image sizes, and changed experience-date typography to the site sans-serif.
+
+
+Additional portfolio document:
+- `tuff-collection-case-report.pdf` — full 23-page individual Tuff Collection case report linked from `tuff.html`.
