@@ -42,3 +42,6 @@ V19 updates: refreshed Padel thumbnail, standardized homepage project image size
 
 Additional portfolio document:
 - `tuff-collection-case-report.pdf` — full 23-page individual Tuff Collection case report linked from `tuff.html`.
+
+
+V21 updates: stronger Social Media and Event Coordination case studies, a homepage Education & International section, and clearer recruiter-facing contact details.
