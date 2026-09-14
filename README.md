@@ -58,3 +58,7 @@ V23: recruiter-focused homepage polish, quick proof strip, stronger experience d
 
 
 V25 update: standardized project snapshot panels across every case study, clarified role/scope/focus/output for 15-second scanning, added collaborative-work notes on team projects, and made the SHED it no-go decision explicit.
+
+
+## V26
+Homepage conversion polish: stronger primary CTA, cleaner navigation CTA, tighter first screen, recruiter-oriented featured work, stronger contact section, and a balanced Work archive using a contact CTA tile rather than a filler tenth case study.
